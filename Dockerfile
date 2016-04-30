@@ -1,5 +1,5 @@
 FROM gocd/gocd-agent:latest
-# MAINTAINER Aravind SV <arvind.sv@gmail.com>
+MAINTAINER Gustavo Vinícius <gustavovnicius@hotmail.com>
 
 ENV DOCKER_BUCKET get.docker.com
 ENV DOCKER_VERSION 1.11.1
