@@ -3,7 +3,7 @@ Embedded docker within GoCD Agent container
 
 
 Based on latest build of gocd-agent. You can check for more info on
-the [official page]([gocd-agent](https://hub.docker.com/r/gocd/gocd-agent/).
+the [official page](https://hub.docker.com/r/gocd/gocd-agent/).
 
 This image has an already embedded docker client and docker-compose binary, so just by defining the `DOCKER_HOST` environment var in your pipeline you are ready to run related docker commands in your GoCD jobs.
 
